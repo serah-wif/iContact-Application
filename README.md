@@ -1,14 +1,17 @@
 iContact-Application
-	By: Zeynab Hassan and Stephen Omorogbe
+	By: Serah Karanja
 
 Purpose:
-	Using Tkinter, we built an address book app that allows users to categorize contacts using custom labels. This is useful for people who might have a lot of contacts and want a neat and personalized way.
+	Using Tkinter, we built an address book app that allows users to categorize contacts using custom labels. The software will help the employer track sick time contacts   for those impacted by pandemic if an employee is affected or family member, they can still get sick time from the day of infection. Employer will then ensure employees retain their regular sick hours and only use it when they need it.
 
 
 Abstract:
-	For our project we have decided to build software for an address book. Using the Tkinter module and its toolkit dependencies, we will create a multi-layer GUI that allows users to store and compartmentalize contact information into four categories.
-	On the root page of the application, the user will be presented with two options: new and view. The new option will open up a separate screen that allows them to input information for a new contact. At the bottom of the new contact screen, there will be options allowing the user to classify the new contact as a family, friend, coworker, or other. Users will be able to save the new contact’s information under that category that was selected and the data will be stored in a connected database. The screen will refresh and the user will be able to input another new contact’s information or they can close the screen if they are done. Closing the screen brings the user back to the root screen.
-	The second option on the root screen is the view option. When clicked, a new screen will open and display four buttons labeled as the four aforementioned categories. Clicking one of the four buttons will retrieve the contact data of the category from the database. In each window, the user will have the option to return to the previous screen by pressing a button in the top left corner of the screen. 
+The software will help the employer track sick time contacts  for those impacted by pandemic if an employee is affected or family member, they can still get sick time from the day of infection. Employer will then ensure employees retain their regular sick hours and only use it when they need it Using the Tkinter module and its toolkit dependencies, we will create a multi-layer GUI that allows users to store and compartmentalize contact information into four categories.
+	HR Database contact app should include:
+If an employee is infected, HR will offer 9 days of Covid Sick time from the day of infection (reported date).
+If an employee’s family is infected, the company will offer 7 days of covid PTO sick time to the employee.
+If more than one or more employee’s family member is infected within a span of 4 days, then the employee will be awarded 5 days of covid sick time (from the most recent date when either of the family member got infected)
+
 
 
 
